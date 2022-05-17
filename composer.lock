@@ -4,31 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05f179b8dd040ea93e908b9dd9a94c5b",
+    "content-hash": "77995e8321a51f23c1874bb788e59325",
     "packages": [
-        {
-            "name": "airvm/airvm-php-standard",
-            "version": "1.1.6",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:airvm/airvm-php-standard.git",
-                "reference": "d9453e09e2dfe4855fc8da026cc0cfd1a0174231"
-            },
-            "require": {
-                "squizlabs/php_codesniffer": "^3.0.1"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ],
-                "PSR-4": {
-                    "AirVM\\": "src/"
-                }
-            },
-            "description": "Standard Library for PHPCS for AirVM internal use.",
-            "time": "2018-08-01T19:13:02+00:00"
-        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
@@ -1048,11 +1025,11 @@
         },
         {
             "name": "hyalto/php-models",
-            "version": "3.0.0",
+            "version": "2.104.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:airvm/php-models.git",
-                "reference": "b2fc29f0d81748c62f3569e2028057945b1f9640"
+                "reference": "384168ea3d19dd65f4bfaa597e2196fbfda14396"
             },
             "require": {
                 "aws/aws-sdk-php": "~3.0",
@@ -1074,7 +1051,7 @@
                 ]
             },
             "description": "Common HyAlto models",
-            "time": "2021-01-28T22:00:50+00:00"
+            "time": "2021-10-29T16:36:53+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3000,62 +2977,6 @@
                 }
             ],
             "time": "2020-11-12T18:46:53+00:00"
-        },
-        {
-            "name": "squizlabs/php_codesniffer",
-            "version": "3.6.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5e4e71592f69da17871dba6e80dd51bce74a351a",
-                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a",
-                "shasum": ""
-            },
-            "require": {
-                "ext-simplexml": "*",
-                "ext-tokenizer": "*",
-                "ext-xmlwriter": "*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
-            },
-            "bin": [
-                "bin/phpcs",
-                "bin/phpcbf"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Greg Sherwood",
-                    "role": "lead"
-                }
-            ],
-            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
-            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
-            "keywords": [
-                "phpcs",
-                "standards"
-            ],
-            "support": {
-                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
-                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
-                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
-            },
-            "time": "2021-12-12T21:44:58+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -8113,7 +8034,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3"
+        "php": "^7.3|^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

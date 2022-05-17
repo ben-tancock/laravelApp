@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Hyalto\Models\Core\Service;
 
+
 // just make a simple request from the sql DB for now...
 class MyController extends Controller
 {
@@ -34,9 +35,12 @@ class MyController extends Controller
 
     public function getServiceOfferings(){
         print("test getServiceOfferings");
-        $myService = Service::ServiceOffering();
+        $myService = Service::create();
         //$myService="sadffds";
-        return "asdfsfdfds";
+        if(class_exists('Request')){
+            return 'Service exists';
+        }
+        return "borked";
     }
 }
 
